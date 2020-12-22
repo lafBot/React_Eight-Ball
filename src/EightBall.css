@@ -1,0 +1,26 @@
+#EightBall {
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: auto;
+    right: auto;
+    box-shadow: 100px 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#EightBall-text {
+    background-color: rgba(255,255,255,0.2);
+    padding: 10px;
+    border-radius: 15px;
+    min-width: 300px;
+}
+
+button {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+}
