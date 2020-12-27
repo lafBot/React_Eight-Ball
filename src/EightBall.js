@@ -18,8 +18,8 @@ const EightBall = () => {
     // Returns div containing EightBall components
     return (
         <div id='EightBall' style={{backgroundColor: color}}>
-            <div id='EightBall-text'>
-                <h1>{msg}</h1>
+            <div id='EightBall-text-container'>
+                <h1 className='EightBall-text'>{msg}</h1>
                 <button onClick={handleClick}>Shake</button>
             </div>
         </div>
